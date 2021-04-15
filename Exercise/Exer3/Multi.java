@@ -37,7 +37,7 @@ class Threadbank extends Thread
                catch (InterruptedException e)
                {
                }
-               t.amount = 2000.0;
+               t.amount = 4500.0;
                System.out.println (t.transName + " " + t.amount);
                
            }
@@ -52,7 +52,7 @@ class Threadbank extends Thread
                catch (InterruptedException e)
                {
                }
-               t.amount = 250.0;
+               t.amount = 3600.0;
                System.out.println (t.transName + " " + t.amount);
            }
       }
