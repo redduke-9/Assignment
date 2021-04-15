@@ -6,15 +6,15 @@ public class Holiday {
 		private String month;
 
 	public String setname()
-	{       this.name="Republic day";
+	{       this.name="Independence day";
 			return name;
 	}
 		public int setday()
-		{       this.day=26;
+		{       this.day=15;
 				return day;
 		}
 		public String setmonth()
-		{       this.month = "January";
+		{       this.month = "August";
 				return month;
 		}
 	 public static void main(String args[])
